@@ -1,0 +1,24 @@
+{
+  "name": "build-dm",
+  "version": "0.1.0",
+  "description": "Compiles BYOND DreamMaker projects",
+  "license": "MIT",
+  "engines": {
+    "atom": "^1.0.0"
+  },
+  "dependencies": {
+    "glob": "^7.0.3"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Compiles BYOND DreamMaker projects",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "main": "lib/dm.js",
+  "repository": "https://github.com/DeeUnderscore/atom-build-dm",
+  "bugs": { "url": "https://github.com/DeeUnderscore/atom-build-dm/issues" },
+  "keywords": ["DM", "BYOND", "SS13", "DreamMaker"]
+}
