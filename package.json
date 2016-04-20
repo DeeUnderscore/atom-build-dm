@@ -19,6 +19,18 @@
   },
   "main": "lib/dm.js",
   "repository": "https://github.com/DeeUnderscore/atom-build-dm",
-  "bugs": { "url": "https://github.com/DeeUnderscore/atom-build-dm/issues" },
-  "keywords": ["DM", "BYOND", "SS13", "DreamMaker"]
+  "bugs": {
+    "url": "https://github.com/DeeUnderscore/atom-build-dm/issues"
+  },
+  "keywords": [
+    "DM",
+    "BYOND",
+    "SS13",
+    "DreamMaker"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^6.0.3",
+    "eslint": "^2.8.0",
+    "eslint-config-atom-build": "^3.0.0"
+  }
 }
